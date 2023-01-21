@@ -47,3 +47,5 @@ for selected_account in list(selected_account_list.itertuples())[start:]:
     loop_count += 1
     if loop_count % 399 == 0:
         time.sleep(24 * 60 * 60)
+    else:
+        time.sleep(24)
